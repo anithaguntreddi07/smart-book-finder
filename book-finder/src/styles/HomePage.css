@@ -131,3 +131,8 @@
     transform: translateY(-10px);
   }
 }
+@media (max-width: 768px) {
+  .book-list {
+    justify-content: space-between;
+  }
+}
