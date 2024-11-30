@@ -50,3 +50,8 @@ body.dark-mode .theme-toggle {
 body.dark-mode .theme-toggle:hover {
   background-color: #e0a800;
 }
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
