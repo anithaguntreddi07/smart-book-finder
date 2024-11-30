@@ -24,4 +24,14 @@
   .search-bar button:hover {
     background-color: #0056b3;
   }
-  
+  @media (max-width: 768px) {
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .search-bar input,
+  .search-bar button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
